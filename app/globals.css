@@ -2,14 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global reset only — NO @apply */
 html,
 body {
-  height: 100%;
-}
-
-body {
-  background-color: #0a192f;
+  margin: 0;
+  padding: 0;
+  background-color: #020617; /* slate-950 */
   color: #e5e7eb;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+  font-family: "JetBrains Mono", monospace;
 }
